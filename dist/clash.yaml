@@ -132,42 +132,49 @@ proxies:
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.63"
+    server: "202.50.253.72"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.90"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
     type: "vless"
-    server: "zfapi.zalolink.com"
-    port: 11802
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    server: "196.245.52.187"
+    port: 443
+    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
     network: "tcp"
-    sni: "psstatic.cdn.bcebos.com"
+    sni: "04535dt.us8.h1clayd.click"
     udp: true
 
-  - name: "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
+  - name: "美国 Alabanza"
+    type: "vmess"
+    server: "65.108.240.210"
+    port: 39018
+    cipher: "auto"
+    uuid: "fa15684a-81e6-4ba7-bc4b-f601c0d998e9"
+    alterId: 0
+    network: "tcp"
+
+  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
     type: "vless"
-    server: "196.199.122.2"
+    server: "196.196.149.80"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
     sni: "7aa271t.es1.h1clayd.click"
     udp: true
 
-  - name: "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "zfapi.zalolink.com"
-    port: 47691
-    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
-    network: "tcp"
-    sni: "m.media-amazon.com"
-    udp: true
-
-  - name: "%E2%9D%93Other_71%7C691KB%2Fs%7CR002-260618%20%5Ba58390e79a70%5D"
+  - name: "%F0%9F%87%B9%F0%9F%87%B7%20%E5%9C%9F%E8%80%B3%E5%85%B6%20%7C%20TUR"
     type: "trojan"
     server: "sclass-b1.catcat321.com"
-    port: 20028
+    port: 20027
     password: "d7563108-615c-4338-a7bd-77f359869a4a"
     sni: "hk.catxstar.com"
     udp: true
@@ -179,6 +186,14 @@ proxies:
     uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
     network: "raw"
     sni: "www.apple.com"
+    udp: true
+
+  - name: "%F0%9F%87%B9%F0%9F%87%B7TR_9%7C1.4MB/s%7CC002-260622%20%5B7f0f1fb3a2ca%5D"
+    type: "trojan"
+    server: "sclass-b1.catcat321.com"
+    port: 20028
+    password: "d7563108-615c-4338-a7bd-77f359869a4a"
+    sni: "hk.catxstar.com"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0105"
@@ -1090,21 +1105,6 @@ proxies:
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%F0%9F%87%B0%F0%9F%87%B7KR-158.247.253.243-0154"
-    type: "trojan"
-    server: "158.247.253.243"
-    port: 443
-    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
-    sni: "connectgraduateswithjobopeningsandgrowprofessionally.com"
-    udp: true
-
-  - name: "%F0%9F%87%AC%F0%9F%87%A7GB-198.244.201.129-0198"
-    type: "ss"
-    server: "198.244.201.129"
-    port: 19999
-    cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-
 proxy-groups:
   - name: Proxy
     type: select
@@ -1126,11 +1126,13 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "美国 Alabanza"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%F0%9F%87%B9%F0%9F%87%B7%20%E5%9C%9F%E8%80%B3%E5%85%B6%20%7C%20TUR"
       - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E2%9D%93Other_71%7C691KB%2Fs%7CR002-260618%20%5Ba58390e79a70%5D"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%F0%9F%87%B9%F0%9F%87%B7TR_9%7C1.4MB/s%7CC002-260622%20%5B7f0f1fb3a2ca%5D"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0105"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0111"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0219"
@@ -1138,8 +1140,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0216"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0075"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0215"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0076"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.61.52-0131"
   - name: Auto
     type: url-test
     proxies:
@@ -1159,11 +1159,13 @@ proxy-groups:
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "美国 Alabanza"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%F0%9F%87%B9%F0%9F%87%B7%20%E5%9C%9F%E8%80%B3%E5%85%B6%20%7C%20TUR"
       - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E2%9D%93Other_71%7C691KB%2Fs%7CR002-260618%20%5Ba58390e79a70%5D"
-      - "%E6%97%A5%E6%9C%AC+%E4%B8%9C%E4%BA%ACAmazon%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%F0%9F%87%B9%F0%9F%87%B7TR_9%7C1.4MB/s%7CC002-260622%20%5B7f0f1fb3a2ca%5D"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0105"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0111"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.169-0219"
@@ -1171,8 +1173,6 @@ proxy-groups:
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.168-0216"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.9-0075"
       - "%F0%9F%87%BA%F0%9F%87%B8US-156.146.38.167-0215"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.160.18-0076"
-      - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.61.52-0131"
     url: http://www.gstatic.com/generate_204
     interval: 300
 
