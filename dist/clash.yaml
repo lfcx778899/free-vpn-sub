@@ -130,13 +130,47 @@ proxies:
     alterId: 0
     network: "ws"
 
-  - name: "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
     type: "vless"
-    server: "196.196.148.85"
+    server: "196.196.149.80"
     port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
-    sni: "5d0319t.nl7.h1clayd.click"
+    sni: "7aa271t.es1.h1clayd.click"
+    udp: true
+
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.27"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
+  - name: "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
+    type: "vless"
+    server: "free.fugui.lol"
+    port: 47396
+    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
+    network: "tcp"
+    sni: "swdist.apple.com"
+    udp: true
+
+  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+    type: "vless"
+    server: "196.196.149.81"
+    port: 443
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
+    network: "tcp"
+    sni: "7aa271t.es1.h1clayd.click"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+    type: "vless"
+    server: "saas.sin.fan"
+    port: 443
+    uuid: "5d7b401c-78fa-4254-872e-6d42bf7e75ec"
+    network: "ws"
+    sni: "vp12.1145678.xyz"
     udp: true
 
   - name: "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
@@ -147,62 +181,27 @@ proxies:
     sni: "hk.catxstar.com"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-    type: "trojan"
-    server: "sclass-00.catcat321.com"
-    port: 20123
-    password: "d9064589-74af-432a-9390-5d8a9da281bf"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
-    type: "vless"
-    server: "free.fugui.lol"
-    port: 62015
-    uuid: "ead3595f-4020-4e76-a3ec-c248e1a2f2f7"
-    network: "tcp"
-    sni: "swdist.apple.com"
-    udp: true
-
-  - name: "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "trojan"
-    server: "sclass-01.catcat321.com"
-    port: 20103
-    password: "d7563108-615c-4338-a7bd-77f359869a4a"
-    sni: "hk.catxstar.com"
-    udp: true
-
-  - name: "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-    type: "trojan"
-    server: "sclass-00.catcat321.com"
-    port: 20103
-    password: "d9064589-74af-432a-9390-5d8a9da281bf"
-    sni: "hk.catxstar.com"
-    udp: true
-
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.81"
+    server: "202.50.253.36"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "瑞士 V2CROSS.COM"
-    type: "vmess"
-    server: "179.43.140.24"
-    port: 42831
-    cipher: "auto"
-    uuid: "a925a98c-ad7a-40c6-9fdf-130a1de69416"
-    alterId: 0
-    network: "tcp"
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.99"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+  - name: "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
     type: "vless"
-    server: "196.196.149.80"
+    server: "196.196.148.76"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
-    sni: "7aa271t.es1.h1clayd.click"
+    sni: "8a2e72t.nl20.h1clayd.shop"
     udp: true
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0095"
@@ -1118,15 +1117,15 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "瑞士 V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0095"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0104"
       - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.61.52-0089"
@@ -1151,15 +1150,15 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
-      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-      - "%E7%BE%8E%E5%9B%BD+%E6%96%B0%E6%B3%BD%E8%A5%BF%E5%B7%9E%28Merck%E5%85%AC%E5%8F%B8%29"
-      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "瑞士 V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E5%8F%B0%E6%B9%BE%E7%9C%81%E5%8F%B0%E5%8C%97%E5%B8%82+%E4%B8%AD%E5%8D%8E%E7%94%B5%E4%BF%A1"
+      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+      - "%E7%BE%8E%E5%9B%BD+CloudFlare%E8%8A%82%E7%82%B9"
+      - "%E9%A6%99%E6%B8%AF+%E8%91%B5%E5%85%B4%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0095"
       - "%F0%9F%87%BA%F0%9F%87%B8US-45.86.51.18-0104"
       - "%F0%9F%87%BA%F0%9F%87%B8US-167.88.61.52-0089"
