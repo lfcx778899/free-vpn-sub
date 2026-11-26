@@ -130,6 +130,13 @@ proxies:
     alterId: 0
     network: "ws"
 
+  - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
+    type: "ss"
+    server: "202.50.253.36"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+
   - name: "%E8%8B%B1%E5%9B%BD+%E4%BC%A6%E6%95%A6%E5%8D%97%E5%B2%B8%E5%A4%A7%E5%AD%A6"
     type: "vless"
     server: "136.148.83.70"
@@ -139,7 +146,16 @@ proxies:
     sni: "aszbk-ru-78dc.my-fade.cloud"
     udp: true
 
-  - name: "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
+  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+    type: "vless"
+    server: "213.183.41.31"
+    port: 8459
+    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
+    network: "ws"
+    sni: "photos.plumstatic.com"
+    udp: true
+
+  - name: "%E7%BE%8E%E5%9B%BD+Xerox"
     type: "vless"
     server: "8a2e72t.nl20.h1clayd.shop"
     port: 443
@@ -148,54 +164,29 @@ proxies:
     sni: "8a2e72t.nl20.h1clayd.shop"
     udp: true
 
-  - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
+  - name: "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
     type: "vless"
-    server: "196.196.149.80"
+    server: "196.196.148.76"
     port: 443
     uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
-    sni: "7aa271t.es1.h1clayd.click"
+    sni: "8a2e72t.nl20.h1clayd.shop"
     udp: true
 
   - name: "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
     type: "ss"
-    server: "202.50.253.63"
+    server: "202.50.253.27"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
 
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-    type: "vless"
-    server: "devcdn.icu"
-    port: 443
-    uuid: "b432a23a-acff-425c-bf69-70480cd6ed09"
-    network: "ws"
-    sni: "devcdn.icu"
-    udp: true
-
-  - name: "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
-    type: "ss"
-    server: "47.254.128.109"
-    port: 443
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
-
-  - name: "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
-    type: "vless"
-    server: "213.183.45.23"
-    port: 8450
-    uuid: "eb62cabf-5901-403a-aa0c-b1d9ed1b346d"
-    network: "ws"
-    sni: "fonts.plumstatic.com"
-    udp: true
-
   - name: "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
     type: "vless"
-    server: "196.245.52.187"
+    server: "196.196.149.81"
     port: 443
-    uuid: "cda0862a-0f87-4be9-8ed8-1d0c9e382839"
+    uuid: "4201786b-d99b-4147-a5f0-20d47acddb81"
     network: "tcp"
-    sni: "04535dt.us8.h1clayd.click"
+    sni: "7aa271t.es1.h1clayd.click"
     udp: true
 
   - name: "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
@@ -206,6 +197,13 @@ proxies:
     network: "tcp"
     sni: "7aa271t.es1.h1clayd.click"
     udp: true
+
+  - name: "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
+    type: "ss"
+    server: "47.254.128.109"
+    port: 443
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y="
 
   - name: "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0073"
     type: "ss"
@@ -1112,15 +1110,15 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+%E4%BC%A6%E6%95%A6%E5%8D%97%E5%B2%B8%E5%A4%A7%E5%AD%A6"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
+      - "%E8%8B%B1%E5%9B%BD+%E4%BC%A6%E6%95%A6%E5%8D%97%E5%B2%B8%E5%A4%A7%E5%AD%A6"
       - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+Xerox"
+      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
       - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0073"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0079"
@@ -1145,15 +1143,15 @@ proxy-groups:
       - "github.com/freefq%20-%20%E5%B9%BF%E4%B8%9C%E7%9C%81%E6%B1%9F%E9%97%A8%E5%B8%82%E7%A7%BB%E5%8A%A8%2012"
       - "github.com/freefq - 美国Fastly全球Anycast节点 13"
       - "github.com/freefq - 美国CloudFlare节点 14"
-      - "%E8%8B%B1%E5%9B%BD+%E4%BC%A6%E6%95%A6%E5%8D%97%E5%B2%B8%E5%A4%A7%E5%AD%A6"
-      - "%E7%BE%8E%E5%9B%BD+V2CROSS.COM"
-      - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
       - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
-      - "%E4%BF%84%E7%BD%97%E6%96%AF+V2CROSS.COM"
-      - "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
+      - "%E8%8B%B1%E5%9B%BD+%E4%BC%A6%E6%95%A6%E5%8D%97%E5%B2%B8%E5%A4%A7%E5%AD%A6"
       - "%E4%BF%84%E7%BD%97%E6%96%AF+%E8%8E%AB%E6%96%AF%E7%A7%91Melbicom%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83"
+      - "%E7%BE%8E%E5%9B%BD+Xerox"
+      - "%E7%88%B1%E6%B2%99%E5%B0%BC%E4%BA%9A+V2CROSS.COM"
+      - "%E6%96%B0%E8%A5%BF%E5%85%B0+V2CROSS.COM"
       - "%E8%A5%BF%E7%8F%AD%E7%89%99+V2CROSS.COM"
       - "%E5%A1%9E%E8%88%8C%E5%B0%94+V2CROSS.COM"
+      - "%E5%BE%B7%E5%9B%BD+%E9%98%BF%E9%87%8C%E4%BA%91"
       - "%F0%9F%87%BA%F0%9F%87%B8US-193.151.163.18-0073"
       - "%F0%9F%87%BA%F0%9F%87%B8US-185.230.230.18-0069"
       - "%F0%9F%87%BA%F0%9F%87%B8US-37.19.198.160-0079"
